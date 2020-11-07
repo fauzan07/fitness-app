@@ -1,0 +1,277 @@
+html {scroll-behavior: smooth;}
+body{
+    font-size: 16px;
+    font-family: 'Martel Sans', sans-serif;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    font-family: 'Martel Sans', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+h1, .h1 {font-size: 2.75em; color: #3face4;}
+h2, .h2 {font-size: 1.7em;}
+h3, .h3 {font-size: 1.15em;}
+h4, .h4 {font-size: 1.1em;}
+h5, h6, .h5, .h6{font-size: 1em; }
+
+p,li {color: #444; font-size: 1em;}
+i{color: #fff; font-size: 1.15em;}
+a {color: #444; text-decoration: none;  transition: 0.3s;}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3face4;
+    cursor: pointer;
+  }
+  .topbtn button:hover{
+      background: #000;
+      color: #fff;
+  }
+
+  a.mainbtn {
+    /*font-family: 'Abel', sans-serif;*/
+    width: 170px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    background: #3face4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+button.btn-primary {
+    /*font-family: 'Abel', sans-serif;*/
+    width: 170px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    background: #3face4;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* a.mainbtn:hover {
+    background: #999;
+    color: #000;
+} */
+
+/*--------section header start---------*/
+
+.nav-link{color: #000; font-size: 0.9em; font-family: 'Martel Sans', sans-serif; text-transform: uppercase; font-weight: 600;}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {color: #3face4;}
+.bg-color{
+    background: #111213;
+    border-bottom: 4px solid #3face4;
+  }
+  
+@media screen and (max-width: 480px) {
+    .home_nav{padding-left: 8px;}
+}
+
+/*--------section header end---------*/
+
+.banner-section{
+    background-image: url(assets/banner-img.png);
+    width: 100%;
+    height: 100vh;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+.banner-title{
+    color: #3face4;
+    font-size: 100px;
+    font-weight: 600;
+    text-shadow: 2px 4px rgba(50, 50, 70, 0.8);
+    text-transform: uppercase;
+}
+
+
+.banner-title2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.banner-title3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.about-name {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.about-bg{
+    background-color: #3face4;
+    color: #fff;
+}
+
+.about-text{
+    padding: 180px 40px;
+}
+
+.icon-about i {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.services-item {
+    background: #fff;
+    margin: 15px 0;
+    padding: 30px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+    height:90%;
+}
+
+.icon-video i {
+    position: absolute;
+    top: 135px;
+    right: 552px;
+}
+
+.icon-video i {
+    font-size: 80px;
+    color: #3face4;
+    margin-bottom: 1rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #3face4;
+}
+
+.icon-info i{
+    font-size: 20px;
+    color: #3face4;
+    margin-bottom: 1rem;
+}
+
+.error{
+	color: red;
+  }
+
+
+
+
+/*--------footer-area start---------*/
+footer a { text-transform: uppercase; font-size: 0.8em; }
+.footer-area{ 
+    background-color:#fff;
+}
+
+.footer-area a{ 
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-area p{ 
+    color: #000;
+}
+
+/*--------footer-area end---------*/
+
+@media screen and (max-width: 990px){
+    .icon-video i {
+        position: absolute;
+        top: 65px;
+        right: 315px;
+    }
+
+    .about-text {
+        padding: 8px 40px;
+    }
+
+    .about-name {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+    .icon-about i {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    h1, .h1 {font-size: 1.75em; color: #3face4;}
+    
+    .banner-title{
+        color: #3face4;
+        font-size: 80px;
+        font-weight: 600;
+        text-shadow: 2px 4px rgba(50, 50, 70, 0.8);
+        text-transform: uppercase;
+    }
+    
+    
+    .banner-title2{
+        color: #fff;
+        font-size: 40px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    .banner-title3{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 100;
+        text-transform: capitalize;
+    }
+
+    .icon-video i {
+        font-size: 60px;
+        color: #3face4;
+        margin-bottom: 1rem;
+    }
+
+    .icon-video i {
+        position: absolute;
+        top: 30px;
+        right: 161px;
+    }
+
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+   
+}
