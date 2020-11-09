@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 
 function Footer(props) {
 
   var date = new Date().getFullYear();
- 
 
+
+ 
   return(
     
     <>
@@ -22,6 +23,8 @@ function Footer(props) {
             </div>
           </section>
     </footer>
+
+ 
     </>
   
   );

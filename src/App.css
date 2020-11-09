@@ -153,6 +153,12 @@ button.btn-primary {
     height:90%;
 }
 
+.icon1 i {
+    font-size: 50px;
+    color: #3face4;
+    margin-bottom: 1rem;
+}
+
 .icon-video i {
     position: absolute;
     top: 135px;
